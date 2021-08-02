@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Harry Potter - The Philosopher's Stone",
+        "desc": "Magic, wizard, witch",
+        "isbn": 1,
+        "pages": 232,
+        "author": "J.K.Rowling",
+        "issued": "True",
+        "year": 1997
+    }
+]
