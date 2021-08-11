@@ -13,6 +13,7 @@ class Book:
 
     def to_dict(self):
         dictionary={
+            "id":self.id,
             "name":self.name,
             "desc":self.desc,
             "isbn":self.isbn,
