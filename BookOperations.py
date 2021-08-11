@@ -51,13 +51,13 @@ def load_book():
             books.append(newobj)
         print("Succesfully loaded books")
         return books
-    except IOError:
+    except Exception:
         print("The file doesn't exist or an error occured during loading\n")
 def find_book(books, id):
     for index, book in enumerate(books):
         if book.id == id:
             return index
-        return None 
+    return None 
 
 def issue_book(books):
     id = input("Enter the id of the book you want to issue: ")
