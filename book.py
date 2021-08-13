@@ -23,6 +23,3 @@ class Book:
             "year":self.year
         }
         return dictionary
-
-# book1= book("Harry Potter:Tha Chamber of Secrets","magis,wizards,witch",123456789,389,"J.K.Rowling","25/04/2021",1995)
-# print(book1.to_dict())
