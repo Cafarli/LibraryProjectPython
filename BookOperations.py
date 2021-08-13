@@ -38,7 +38,7 @@ def save_book_locally(books):
         file = open("books.dat","w")
         file.write(json.dumps(json_books,indent=4))
     except:
-        print("Errorss")
+        print("Error")
     pass
 def load_book():
     try:
@@ -57,7 +57,7 @@ def find_book(books, id):
     for index, book in enumerate(books):
         if book.id == id:
             return index
-    return None 
+        return None 
 
 def issue_book(books):
     id = input("Enter the id of the book you want to issue: ")
@@ -97,4 +97,4 @@ def show_book(books):
     if index != None:
         print(books[index].to_dict())
     else:
-        print("System can't find the book you are looking for.")
+        print("System can't fond the book you are looking for.")
