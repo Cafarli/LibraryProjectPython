@@ -1,11 +1,22 @@
 [
     {
-        "name": "Harry Potter - The Philosopher's Stone",
-        "desc": "Magic, wizard, witch",
-        "isbn": 1,
-        "pages": 232,
+        "id": "0000000001",
+        "name": "Harry Potter and the Philosopher's Stone",
+        "desc": "magic, wizard, witch",
+        "isbn": 976423415,
+        "pages": 223,
         "author": "J.K.Rowling",
-        "issued": "True",
+        "issued": "true",
         "year": 1997
+    },
+    {
+        "id": "0000000002",
+        "name": "Harry Potter Chamber of Secrets",
+        "desc": "magic, witch, wizard",
+        "isbn": 9862561762,
+        "pages": 251,
+        "author": "J.K.Rowling",
+        "issued": "true",
+        "year": 1998
     }
 ]
